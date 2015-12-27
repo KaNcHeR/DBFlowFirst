@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">DBFlowTask</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_drawer_products">Товары</string>
+    <string name="nav_drawer_categories">Категории</string>
+
+    <string name="add_product">Добавить товар</string>
+
+    <string name="list_item_name">Name</string>
+    <string name="list_item_category">Category</string>
+
+    <string name="adding_product_dialog">Добавить товар</string>
+    <string name="adding_category_dialog">Добавить категорию</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_error_empty_title">Введите наименование товара</string>
+
+    <string name="hint_product_name">Название товара</string>
+
+    <string name="hint_category_name">Название категории</string>
+
+</resources>

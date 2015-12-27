@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="dbflow-develop-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow/develop-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow/develop-SNAPSHOT/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Raizlabs.DBFlow/dbflow/develop-SNAPSHOT/8116c6b9c854d56790d535aad7ffbcca47d40ea2/dbflow-develop-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
