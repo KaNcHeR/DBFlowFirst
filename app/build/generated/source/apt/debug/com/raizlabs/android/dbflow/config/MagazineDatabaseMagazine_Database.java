@@ -12,14 +12,14 @@ import java.lang.String;
  * This is generated code. Please do not modify */
 public final class MagazineDatabaseMagazine_Database extends BaseDatabaseDefinition {
   public MagazineDatabaseMagazine_Database(DatabaseHolder holder) {
-    holder.putDatabaseForTable(Product.class, this);
     holder.putDatabaseForTable(Category.class, this);
-    models.add(Product.class);
-    modelTableNames.put("Product", Product.class);
-    modelAdapters.put(Product.class, new Product_Adapter(holder));
+    holder.putDatabaseForTable(Product.class, this);
     models.add(Category.class);
     modelTableNames.put("Category", Category.class);
     modelAdapters.put(Category.class, new Category_Adapter(holder));
+    models.add(Product.class);
+    modelTableNames.put("Product", Product.class);
+    modelAdapters.put(Product.class, new Product_Adapter(holder));
     modelContainerAdapters.put(Category.class, new Category_Container(holder));
   }
 

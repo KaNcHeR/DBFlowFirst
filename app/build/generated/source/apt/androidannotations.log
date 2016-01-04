@@ -1,41 +1,41 @@
-02:01:58.672 [Daemon worker Thread 6] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.1 with options {androidManifestFile=C:\Users\KaNcHeR\AndroidStudioProjects\DBFlowTraining\app\build\intermediates\manifests\full\debug\AndroidManifest.xml}
-02:01:58.959 [Daemon worker Thread 6] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 12 annotations on 25 elements
-02:01:58.979 [Daemon worker Thread 6] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: C:\Users\KaNcHeR\AndroidStudioProjects\DBFlowTraining\app\build\intermediates\manifests\full\debug\AndroidManifest.xml
-02:01:58.983 [Daemon worker Thread 6] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.agrotrading.kancher.dbflowtask, componentQualifiedNames=[com.agrotrading.kancher.dbflowtask.MainActivity_], permissionQualifiedNames=[], applicationClassName=com.agrotrading.kancher.dbflowtask.DBFlowTaskApplication, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=23]
-02:01:58.985 [Daemon worker Thread 6] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.agrotrading.kancher.dbflowtask.R
-02:01:59.0 [Daemon worker Thread 6] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
-02:01:59.22 [Daemon worker Thread 6] INFO  o.a.p.ModelValidator:42 - Validating elements
-02:01:59.23 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.agrotrading.kancher.dbflowtask.MainActivity]
-02:01:59.26 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.agrotrading.kancher.dbflowtask.AddingCategoryDialogFragment, com.agrotrading.kancher.dbflowtask.AddingProductDialogFragment, com.agrotrading.kancher.dbflowtask.CategoriesFragment, com.agrotrading.kancher.dbflowtask.ProductsFragment]
-02:01:59.29 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [com.agrotrading.kancher.dbflowtask.adapters.CategoriesAdapter, com.agrotrading.kancher.dbflowtask.adapters.CategoriesSpinnerAdapter, com.agrotrading.kancher.dbflowtask.adapters.ProductsAdapter]
-02:01:59.29 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with EViewGroupHandler: [com.agrotrading.kancher.dbflowtask.views.CategoryItemView, com.agrotrading.kancher.dbflowtask.views.CategorySpinnerDropDownItemView, com.agrotrading.kancher.dbflowtask.views.CategorySpinnerItemView, com.agrotrading.kancher.dbflowtask.views.ProductItemView]
-02:01:59.31 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [categoriesRecyclerView, floatingActionButton, toolbar, drawerLayout, navigationView, expensesRecyclerView, floatingActionButton, nameText, name, name, nameText, categoryText]
-02:01:59.35 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [startAddCategoryActivity(), startAddProductActivity()]
-02:01:59.37 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [categoriesSpinnerAdapter, categoriesAdapter, productsAdapter]
-02:01:59.39 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [openDrawer()]
-02:01:59.40 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHandler: [context, context, context]
-02:01:59.42 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with InstanceStateHandler: [savedInstanceState]
-02:01:59.43 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with AfterInjectHandler: [initAdapter()]
-02:01:59.44 [Daemon worker Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [ready(), ready(), ready()]
-02:01:59.55 [Daemon worker Thread 6] INFO  o.a.p.ModelProcessor:74 - Processing root elements
-02:01:59.55 [Daemon worker Thread 6] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.agrotrading.kancher.dbflowtask.MainActivity]
-02:01:59.85 [Daemon worker Thread 6] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EFragmentHandler: [com.agrotrading.kancher.dbflowtask.CategoriesFragment, com.agrotrading.kancher.dbflowtask.AddingProductDialogFragment, com.agrotrading.kancher.dbflowtask.ProductsFragment, com.agrotrading.kancher.dbflowtask.AddingCategoryDialogFragment]
-02:01:59.89 [Daemon worker Thread 6] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EBeanHandler: [com.agrotrading.kancher.dbflowtask.adapters.CategoriesAdapter, com.agrotrading.kancher.dbflowtask.adapters.ProductsAdapter, com.agrotrading.kancher.dbflowtask.adapters.CategoriesSpinnerAdapter]
-02:01:59.91 [Daemon worker Thread 6] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EViewGroupHandler: [com.agrotrading.kancher.dbflowtask.views.CategoryItemView, com.agrotrading.kancher.dbflowtask.views.CategorySpinnerItemView, com.agrotrading.kancher.dbflowtask.views.ProductItemView, com.agrotrading.kancher.dbflowtask.views.CategorySpinnerDropDownItemView]
-02:01:59.96 [Daemon worker Thread 6] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
-02:01:59.101 [Daemon worker Thread 6] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 12
-02:01:59.103 [Daemon worker Thread 6] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
-02:01:59.105 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.adapters.CategoriesAdapter_
-02:01:59.120 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.adapters.CategoriesSpinnerAdapter_
-02:01:59.128 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.adapters.ProductsAdapter_
-02:01:59.136 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.AddingCategoryDialogFragment_
-02:01:59.150 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.AddingProductDialogFragment_
-02:01:59.164 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.CategoriesFragment_
-02:01:59.183 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.MainActivity_
-02:01:59.208 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.ProductsFragment_
-02:01:59.226 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.views.CategoryItemView_
-02:01:59.240 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.views.CategorySpinnerDropDownItemView_
-02:01:59.258 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.views.CategorySpinnerItemView_
-02:01:59.273 [Daemon worker Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.views.ProductItemView_
-02:01:59.287 [Daemon worker Thread 6] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 328 ms], [Generate Sources = 186 ms], [Process Annotations = 56 ms], [Find R Classes = 28 ms], [Validate Annotations = 23 ms], [Extract Annotations = 18 ms], [Extract Manifest = 6 ms], 
-02:01:59.288 [Daemon worker Thread 6] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing
+01:19:27.691 [Daemon worker Thread 5] INFO  o.a.AndroidAnnotationProcessor:83 - Initialize AndroidAnnotations 3.3.1 with options {androidManifestFile=C:\Users\KaNcHeR\AndroidStudioProjects\DBFlowFirst\app\build\intermediates\manifests\full\debug\AndroidManifest.xml}
+01:19:27.787 [Daemon worker Thread 5] INFO  o.a.AndroidAnnotationProcessor:107 - Start processing for 12 annotations on 25 elements
+01:19:27.859 [Daemon worker Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: C:\Users\KaNcHeR\AndroidStudioProjects\DBFlowFirst\app\build\intermediates\manifests\full\debug\AndroidManifest.xml
+01:19:28.36 [Daemon worker Thread 5] INFO  o.a.AndroidAnnotationProcessor:170 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.agrotrading.kancher.dbflowtask, componentQualifiedNames=[com.agrotrading.kancher.dbflowtask.MainActivity_], permissionQualifiedNames=[], applicationClassName=com.agrotrading.kancher.dbflowtask.DBFlowTaskApplication, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=23]
+01:19:28.37 [Daemon worker Thread 5] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.agrotrading.kancher.dbflowtask.R
+01:19:28.66 [Daemon worker Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+01:19:28.132 [Daemon worker Thread 5] INFO  o.a.p.ModelValidator:42 - Validating elements
+01:19:28.133 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.agrotrading.kancher.dbflowtask.MainActivity]
+01:19:28.138 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.agrotrading.kancher.dbflowtask.AddingCategoryDialogFragment, com.agrotrading.kancher.dbflowtask.AddingProductDialogFragment, com.agrotrading.kancher.dbflowtask.CategoriesFragment, com.agrotrading.kancher.dbflowtask.ProductsFragment]
+01:19:28.142 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [com.agrotrading.kancher.dbflowtask.adapters.CategoriesAdapter, com.agrotrading.kancher.dbflowtask.adapters.CategoriesSpinnerAdapter, com.agrotrading.kancher.dbflowtask.adapters.ProductsAdapter]
+01:19:28.142 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with EViewGroupHandler: [com.agrotrading.kancher.dbflowtask.views.CategoryItemView, com.agrotrading.kancher.dbflowtask.views.CategorySpinnerDropDownItemView, com.agrotrading.kancher.dbflowtask.views.CategorySpinnerItemView, com.agrotrading.kancher.dbflowtask.views.ProductItemView]
+01:19:28.144 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [categoriesRecyclerView, floatingActionButton, toolbar, drawerLayout, navigationView, expensesRecyclerView, floatingActionButton, nameText, name, name, nameText, categoryText]
+01:19:28.150 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [startAddCategoryActivity(), startAddProductActivity()]
+01:19:28.153 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [categoriesSpinnerAdapter, categoriesAdapter, productsAdapter]
+01:19:28.154 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [openDrawer()]
+01:19:28.156 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHandler: [context, context, context]
+01:19:28.158 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with InstanceStateHandler: [savedInstanceState]
+01:19:28.160 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with AfterInjectHandler: [initAdapter()]
+01:19:28.160 [Daemon worker Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [ready(), ready(), ready()]
+01:19:28.173 [Daemon worker Thread 5] INFO  o.a.p.ModelProcessor:74 - Processing root elements
+01:19:28.174 [Daemon worker Thread 5] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EActivityHandler: [com.agrotrading.kancher.dbflowtask.MainActivity]
+01:19:28.219 [Daemon worker Thread 5] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EFragmentHandler: [com.agrotrading.kancher.dbflowtask.AddingProductDialogFragment, com.agrotrading.kancher.dbflowtask.AddingCategoryDialogFragment, com.agrotrading.kancher.dbflowtask.ProductsFragment, com.agrotrading.kancher.dbflowtask.CategoriesFragment]
+01:19:28.223 [Daemon worker Thread 5] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EBeanHandler: [com.agrotrading.kancher.dbflowtask.adapters.CategoriesAdapter, com.agrotrading.kancher.dbflowtask.adapters.ProductsAdapter, com.agrotrading.kancher.dbflowtask.adapters.CategoriesSpinnerAdapter]
+01:19:28.224 [Daemon worker Thread 5] DEBUG o.a.p.ModelProcessor:176 - Processing root elements EViewGroupHandler: [com.agrotrading.kancher.dbflowtask.views.CategoryItemView, com.agrotrading.kancher.dbflowtask.views.CategorySpinnerItemView, com.agrotrading.kancher.dbflowtask.views.CategorySpinnerDropDownItemView, com.agrotrading.kancher.dbflowtask.views.ProductItemView]
+01:19:28.229 [Daemon worker Thread 5] INFO  o.a.p.ModelProcessor:86 - Processing enclosed elements
+01:19:28.235 [Daemon worker Thread 5] INFO  o.a.AndroidAnnotationProcessor:249 - Number of files generated by AndroidAnnotations: 12
+01:19:28.237 [Daemon worker Thread 5] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+01:19:28.239 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.adapters.CategoriesAdapter_
+01:19:28.258 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.adapters.CategoriesSpinnerAdapter_
+01:19:28.268 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.adapters.ProductsAdapter_
+01:19:28.277 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.AddingCategoryDialogFragment_
+01:19:28.294 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.AddingProductDialogFragment_
+01:19:28.312 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.CategoriesFragment_
+01:19:28.338 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.MainActivity_
+01:19:28.368 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.ProductsFragment_
+01:19:28.385 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.views.CategoryItemView_
+01:19:28.401 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.views.CategorySpinnerDropDownItemView_
+01:19:28.415 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.views.CategorySpinnerItemView_
+01:19:28.427 [Daemon worker Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.agrotrading.kancher.dbflowtask.views.ProductItemView_
+01:19:28.441 [Daemon worker Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 654 ms], [Generate Sources = 206 ms], [Extract Manifest = 178 ms], [Find R Classes = 85 ms], [Process Annotations = 74 ms], [Extract Annotations = 69 ms], [Validate Annotations = 30 ms], 
+01:19:28.441 [Daemon worker Thread 5] INFO  o.a.AndroidAnnotationProcessor:121 - Finish processing

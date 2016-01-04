@@ -1,34 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowTraining\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowTraining\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
         "merged": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowFirst\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
         "source": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowFirst\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
-        "merged": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowTask\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_menu.xml",
-        "source": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowTask\\app\\src\\main\\res\\menu\\drawer_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowTask\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowTask\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlow\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_menu.xml",
-        "source": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlow\\app\\src\\main\\res\\menu\\drawer_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowTraining\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_menu.xml",
-        "source": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowTraining\\app\\src\\main\\res\\menu\\drawer_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowFirst\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_menu.xml",
         "source": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlowFirst\\app\\src\\main\\res\\menu\\drawer_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlow\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\KaNcHeR\\AndroidStudioProjects\\DBFlow\\app\\src\\main\\res\\menu\\menu_main.xml"
     }
 ]
