@@ -81,7 +81,7 @@ public class AddingCategoryDialogFragment extends DialogFragment {
                 final Button positiveButton = ((AlertDialog) dialog).getButton(DialogInterface.BUTTON_POSITIVE);
                 if (etCategoryName.length() == 0) {
                     positiveButton.setEnabled(false);
-                    tilCategoryName.setError(getResources().getString(R.string.dialog_error_empty_title));
+                    tilCategoryName.setError(getResources().getString(R.string.dialog_error_empty_title_category));
                 }
 
                 etCategoryName.addTextChangedListener(new TextWatcher() {
@@ -94,7 +94,7 @@ public class AddingCategoryDialogFragment extends DialogFragment {
                     public void onTextChanged(CharSequence s, int start, int before, int count) {
                         if (s.length() == 0) {
                             positiveButton.setEnabled(false);
-                            tilCategoryName.setError(getResources().getString(R.string.dialog_error_empty_title));
+                            tilCategoryName.setError(getResources().getString(R.string.dialog_error_empty_title_category));
                         } else {
                             positiveButton.setEnabled(true);
                             tilCategoryName.setErrorEnabled(false);

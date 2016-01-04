@@ -67,8 +67,8 @@ public final class ProductItemView_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        categoryText = ((TextView) hasViews.findViewById(id.category_text));
         nameText = ((TextView) hasViews.findViewById(id.name_text));
+        categoryText = ((TextView) hasViews.findViewById(id.category_text));
     }
 
 }
